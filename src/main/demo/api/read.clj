@@ -26,8 +26,8 @@
 (defquery-root :todo-list
                (value [{:keys [query]} {:keys [id]}]
                       (let [data (prim/db->tree [{[:lists 1] query}] @todo-list-database @todo-list-database)
-                            result (get data [:lists 1])]
 
+                            result (get data [:lists 1])]
                         result)))
 
 (defquery-root :legenda-list
@@ -35,3 +35,5 @@
                       (let [{:keys [query]} env]
                         (timbre/info :FullQuery query)
                         {:leg/id 1 :leg/name "litologia" :leg/items leg/table})))
+
+(prim/tree->db [:x :id] leg/table)

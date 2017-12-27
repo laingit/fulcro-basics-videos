@@ -61,8 +61,8 @@
            (mapv ui-todo-item items)))
 
 
-(defsc LegendaItem [this {:keys [id lv n]}]
-  {:query [:id :lv :n]
+(defsc LegendaItem [this {:keys [id sort lv n]}]
+  {:query [:id :sort :lv :n]
    :ident [:legenda-item/by-id :id]}
   (dom/div nil
            (dom/button #js {:onClick (fn [evt]
@@ -73,15 +73,15 @@
                                        (prim/transact! this `[(legenda-up-lv {:id ~id})]))}
                        "lv-up")
            (dom/label nil (repeat lv " - "))
-           (dom/label nil "id:" id " lv: " lv " n: " n)))
+           (dom/label nil "id:" id " sort: " sort" lv: " lv " n: " n)))
 
 (def ui-legenda-item (prim/factory LegendaItem {:keyfn :id}))
 
-(defsc Legenda-Table-Item [this {:keys [id lv n]}]
-  {:query [:id :lv :n]
+(defsc Legenda-Table-Item [this {:keys [id sort lv n]}]
+  {:query [:id :sort :lv :n]
    :ident [:legenda-item/by-id :id]}
   (dom/div nil
-           (dom/label nil "id:" id "| lv: " lv "| n: " n)))
+           (dom/label nil "id:" id "| sort: " sort "| lv: " lv "| n: " n)))
 
 (def ui-legenda-table-item (prim/factory Legenda-Table-Item {:keyfn :id}))
 
