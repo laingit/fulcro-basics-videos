@@ -30,6 +30,12 @@
                             result (get data [:lists 1])]
                         result)))
 
+(defquery-root :legenda-list
+               (value [env  parms]
+                      (let [{:keys [query]} env]
+                        (timbre/info :FullQuery query)
+                        {:leg/id 1 :leg/name "litologia" :leg/items leg/table})))
+
 (defquery-root :geoppr/test
                (value [env  parms]
                       (let [{:keys [query]} env]
