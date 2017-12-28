@@ -18,7 +18,7 @@
         (pp/pprint data)))))
 
 
-(defn read-from-geoppr [nomefile-edn]
+(defn- read-from-geoppr [nomefile-edn]
   (let [load #(-> (io/file "resources/geoppr" %) slurp edn/read-string)]
     (load (str nomefile-edn ".edn"))))
 
@@ -28,4 +28,5 @@
 (defn get-gerarchia []
   (read-from-geoppr "gerarchia"))
 
-(get-legenda)
+#_(get-legenda)
+#_(get-gerarchia)

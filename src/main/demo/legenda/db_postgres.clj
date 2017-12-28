@@ -50,16 +50,7 @@
                       :desc_gerar
                       :eta)))
 
-(defn- write-legenda-edn []
-  (utils/pprint-to-edn-resource-geoppr-file
-    {:nomefile-edn "legenda"
-     :data         (into [] (get-legenda))}))
-
-(defn- write-gerachia-edn []
-  (utils/pprint-to-edn-resource-geoppr-file
-    {:nomefile-edn "gerarchia"
-     :data         (into [] (get-gerarchia))}))
-
-(write-legenda-edn)
-#_(write-gerachia-edn)
-
+(doseq [file-data [{:nomefile-edn "gerarchia" :data (into [] (get-gerarchia))} ; data da seq a vector
+                   {:nomefile-edn "legenda" :data (into [] (get-legenda))}
+                   ]]
+  (utils/pprint-to-edn-resource-geoppr-file file-data))
