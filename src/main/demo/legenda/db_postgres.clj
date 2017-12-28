@@ -24,21 +24,20 @@
 (defn- get-connection-from-pool []
   (kDB/get-connection korma-db))
 
+(k/defentity dominio_gerarchia)
+(k/defentity legenda_ppr)
 
 (defn get-gerarchia []
-  (let [query "SELECT \n
-              id, cod_gerarchia, sfalsa, desc_gerarchia
-              FROM public.dominio_gerarchia
-              ORDER BY id;"]
-    (j/query (get-connection-from-pool) [query])))
-
-
-(k/defentity legenda_ppr)
+  (k/select dominio_gerarchia
+            (k/order :id)
+            (k/fields :id
+                      :cod_gerarchia
+                      :sfalsa
+                      :desc_gerarchia)))
 
 (defn- get-legenda []
   (k/select legenda_ppr
-            (k/order :id)
-            (k/order :geoppr)
+            (k/order :id)(k/order :geoppr)
             (k/fields :id
                       :geoppr
                       :tipo
@@ -50,7 +49,13 @@
                       :desc_gerar
                       :eta)))
 
-(doseq [file-data [{:nomefile-edn "gerarchia" :data (into [] (get-gerarchia))} ; data da seq a vector
+(defn- add-level-gerarchia []
+  (->> (get-gerarchia)
+       (map (fn [m]
+              (let [sfalsa (m :sfalsa)]
+                (assoc m :level (utils/classe? sfalsa)))))))
+
+(doseq [file-data [{:nomefile-edn "gerarchia" :data (into [] (add-level-gerarchia))} ; data da seq a vector
                    {:nomefile-edn "legenda" :data (into [] (get-legenda))}
                    ]]
   (utils/pprint-to-edn-resource-geoppr-file file-data))

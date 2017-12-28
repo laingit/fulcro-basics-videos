@@ -30,3 +30,15 @@
 
 #_(get-legenda)
 #_(get-gerarchia)
+
+(defn classe? [stringa]
+  "la stringa e di 4 cifre A000 A100 A110 A111"
+  (let [check000 (= "000" (subs stringa 1 4))
+        check00 (= "00" (subs stringa 2 4))
+        check0 (= "0" (subs stringa 3 4))]
+    (cond
+      check000 1
+      (and check00 (not check000)) 2
+      (and check0 (not check00)) 3
+      (not check0) 4
+      :else 9999)))
