@@ -1,0 +1,475 @@
+[{:id 1,
+  :cod_gerarchia "A000",
+  :sfalsa "A000",
+  :desc_gerarchia "DEPOSITI QUATERNARI"}
+ {:id 2,
+  :cod_gerarchia "A100",
+  :sfalsa "A100",
+  :desc_gerarchia "DEPOSITI QUATERNARI DELL'AREA MARINA"}
+ {:id 3,
+  :cod_gerarchia "A110",
+  :sfalsa "A110",
+  :desc_gerarchia "DEPOSITI OLOCENICI DELL'AREA MARINA"}
+ {:id 4,
+  :cod_gerarchia "A210",
+  :sfalsa "A200",
+  :desc_gerarchia "DEPOSITI QUATERNARI DELL'AREA CONTINENTALE"}
+ {:id 5,
+  :cod_gerarchia "A220",
+  :sfalsa "A210",
+  :desc_gerarchia "DEPOSITI OLOCENICI DELL'AREA CONTINENTALE"}
+ {:id 7,
+  :cod_gerarchia "A221",
+  :sfalsa "A211",
+  :desc_gerarchia "SEDIMENTI LEGATI A GRAVITÀ"}
+ {:id 8,
+  :cod_gerarchia "A222",
+  :sfalsa "A212",
+  :desc_gerarchia "SEDIMENTI ALLUVIONALI"}
+ {:id 9,
+  :cod_gerarchia "A223",
+  :sfalsa "A213",
+  :desc_gerarchia "SEDIMENTI LACUSTRI"}
+ {:id 10,
+  :cod_gerarchia "A224",
+  :sfalsa "A214",
+  :desc_gerarchia "SEDIMENTI EOLICI"}
+ {:id 11,
+  :cod_gerarchia "A225",
+  :sfalsa "A215",
+  :desc_gerarchia "SEDIMENTI LITORALI"}
+ {:id 12,
+  :cod_gerarchia "A230",
+  :sfalsa "A220",
+  :desc_gerarchia "DEPOSITI PLEISTOCENICI DELL'AREA CONTINENTALE"}
+ {:id 13,
+  :cod_gerarchia "B000",
+  :sfalsa "B000",
+  :desc_gerarchia "SUCCESSIONI VULCANO-SEDIMENTARIE TERZIARIE"}
+ {:id 14,
+  :cod_gerarchia "B100",
+  :sfalsa "B100",
+  :desc_gerarchia
+  "SUCCESSIONE VULCANO-SEDIMENTARIA PLIO-PLEISTOCENICA"}
+ {:id 15,
+  :cod_gerarchia "B110",
+  :sfalsa "B110",
+  :desc_gerarchia "COMPLESSO VULCANICO PLIO-PLEISTOCENICO"}
+ {:id 16,
+  :cod_gerarchia "B111",
+  :sfalsa "B111",
+  :desc_gerarchia "BASALTI DEI PLATEAU"}
+ {:id 17,
+  :cod_gerarchia "B112",
+  :sfalsa "B112",
+  :desc_gerarchia "APPARATO VULCANICO DEL MONTIFERRU"}
+ {:id 18,
+  :cod_gerarchia "B113",
+  :sfalsa "B113",
+  :desc_gerarchia "APPARATO VULCANICO DEL MONTE ARCI"}
+ {:id 19,
+  :cod_gerarchia "B114",
+  :sfalsa "B114",
+  :desc_gerarchia "EVENTI VULCANICI ISOLATI"}
+ {:id 20,
+  :cod_gerarchia "B120",
+  :sfalsa "B120",
+  :desc_gerarchia "SUCCESSIONE SEDIMENTARIA PLIO-PLEISTOCENICA"}
+ {:id 21,
+  :cod_gerarchia "B200",
+  :sfalsa "B200",
+  :desc_gerarchia "SUCCESSIONE VULCANO-SEDIMENTARIA OLIGO-MIOCENICA"}
+ {:id 22,
+  :cod_gerarchia "B201",
+  :sfalsa "B201",
+  :desc_gerarchia "SUCCESSIONE SEDIMENTARIA OLIGO-MIOCENICA"}
+ {:id 23,
+  :cod_gerarchia "B202",
+  :sfalsa "B202",
+  :desc_gerarchia "COMPLESSO VULCANICO OLIGO-MIOCENICO"}
+ {:id 24,
+  :cod_gerarchia "B210",
+  :sfalsa "B210",
+  :desc_gerarchia
+  "SUCCESSIONE SEDIMENTARIA OLIGO-MIOCENICA DELLA SARDEGNA CENTRO-SETTENTRIONALE"}
+ {:id 25,
+  :cod_gerarchia "B211",
+  :sfalsa "B211",
+  :desc_gerarchia
+  "SUCCESSIONE SEDIMENTARIA OLIGO-MIOCENICA DEL LOGUDORO-SASSARESE"}
+ {:id 26,
+  :cod_gerarchia "B212",
+  :sfalsa "B212",
+  :desc_gerarchia
+  "SUCCESSIONE SEDIMENTARIA OLIGO-MIOCENICA DEL BACINO DEL TIRSO"}
+ {:id 27,
+  :cod_gerarchia "B220",
+  :sfalsa "B220",
+  :desc_gerarchia
+  "COMPLESSO VULCANICO OLIGO-MIOCENICO DELLA SARDEGNA CENTRO-SETTENTRIONALE"}
+ {:id 28,
+  :cod_gerarchia "B221",
+  :sfalsa "B221",
+  :desc_gerarchia "DISTRETTO VULCANICO DI OSILO-CASTELSARDO"}
+ {:id 29,
+  :cod_gerarchia "B222",
+  :sfalsa "B222",
+  :desc_gerarchia "DISTRETTO VULCANICO DI CAPO MARARGIU"}
+ {:id 30,
+  :cod_gerarchia "B223",
+  :sfalsa "B223",
+  :desc_gerarchia "DISTRETTO VULCANICO DI MONTIFERRU"}
+ {:id 31,
+  :cod_gerarchia "B224",
+  :sfalsa "B224",
+  :desc_gerarchia "DISTRETTO VULCANICO DI BONORVA"}
+ {:id 32,
+  :cod_gerarchia "B225",
+  :sfalsa "B225",
+  :desc_gerarchia "DISTRETTO VULCANICO DI OTTANA"}
+ {:id 33,
+  :cod_gerarchia "B230",
+  :sfalsa "B230",
+  :desc_gerarchia
+  "SUCCESSIONE SEDIMENTARIA OLIGO-MIOCENICA DELLA SARDEGNA CENTRO-MERIDIONALE"}
+ {:id 34,
+  :cod_gerarchia "B231",
+  :sfalsa "B231",
+  :desc_gerarchia
+  "SUCCESSIONE SEDIMENTARIA MIOCENICA DEL CAMPIDANO SETTENTRIONALE"}
+ {:id 35,
+  :cod_gerarchia "B232",
+  :sfalsa "B232",
+  :desc_gerarchia
+  "SUCCESSIONE SEDIMENTARIA OLIGO-MIOCENICA DEL CAMPIDANO-SULCIS"}
+ {:id 36,
+  :cod_gerarchia "B240",
+  :sfalsa "B240",
+  :desc_gerarchia
+  "COMPLESSO VULCANICO OLIGO-MIOCENICO DELLA SARDEGNA MERIDIONALE"}
+ {:id 37,
+  :cod_gerarchia "B241",
+  :sfalsa "B241",
+  :desc_gerarchia "DISTRETTO VULCANICO DEL MONTE ARCUENTU"}
+ {:id 38,
+  :cod_gerarchia "B242",
+  :sfalsa "B242",
+  :desc_gerarchia "DISTRETTO VULCANICO DI SERRENTI-FURTEI"}
+ {:id 39,
+  :cod_gerarchia "B243",
+  :sfalsa "B243",
+  :desc_gerarchia "DISTRETTO VULCANICO DI MONASTIR"}
+ {:id 40,
+  :cod_gerarchia "B244",
+  :sfalsa "B244",
+  :desc_gerarchia "DISTRETTO VULCANICO DI SILIQUA"}
+ {:id 41,
+  :cod_gerarchia "B245",
+  :sfalsa "B245",
+  :desc_gerarchia "DISTRETTO VULCANICO DI SARROCH"}
+ {:id 42,
+  :cod_gerarchia "B250",
+  :sfalsa "B250",
+  :desc_gerarchia "COMPLESSO VULCANICO OLIGO-MIOCENICO DEL SULCIS"}
+ {:id 43,
+  :cod_gerarchia "B251",
+  :sfalsa "B251",
+  :desc_gerarchia "GRUPPO DI PUNTA DELLE COLONNE"}
+ {:id 44,
+  :cod_gerarchia "B252",
+  :sfalsa "B252",
+  :desc_gerarchia "GRUPPO DI CALA LUNGA"}
+ {:id 45,
+  :cod_gerarchia "B253",
+  :sfalsa "B253",
+  :desc_gerarchia "GRUPPO DI MONTE SIRAI"}
+ {:id 46,
+  :cod_gerarchia "B254",
+  :sfalsa "B254",
+  :desc_gerarchia "GRUPPO DI SU RUVU MANNU"}
+ {:id 47,
+  :cod_gerarchia "B255",
+  :sfalsa "B255",
+  :desc_gerarchia "GRUPPO DI S. ANTIOCO"}
+ {:id 48,
+  :cod_gerarchia "B256",
+  :sfalsa "B256",
+  :desc_gerarchia "GRUPPO DI CARBONIA"}
+ {:id 49,
+  :cod_gerarchia "B257",
+  :sfalsa "B257",
+  :desc_gerarchia "GRUPPO DI SERBARIU DI SOPRA"}
+ {:id 50,
+  :cod_gerarchia "B300",
+  :sfalsa "B300",
+  :desc_gerarchia "SUCCESSIONE SEDIMENTARIA PALEOGENICA"}
+ {:id 51,
+  :cod_gerarchia "B310",
+  :sfalsa "B310",
+  :desc_gerarchia
+  "SUCCESSIONE SEDIMENTARIA PALEOGENICA DELLA SARDEGNA SUD-OCCIDENTALE"}
+ {:id 52,
+  :cod_gerarchia "B320",
+  :sfalsa "B320",
+  :desc_gerarchia
+  "SUCCESSIONE SEDIMENTARIA PALEOGENICA DELLA SARDEGNA ORIENTALE"}
+ {:id 53,
+  :cod_gerarchia "C000",
+  :sfalsa "C000",
+  :desc_gerarchia
+  "SUCCESSIONI SEDIMENTARIE E VULCANICHE MESOZOICHE E TARDO-PALEOZOICHE"}
+ {:id 54,
+  :cod_gerarchia "C100",
+  :sfalsa "C100",
+  :desc_gerarchia
+  "SUCCESSIONI SEDIMENTARIE E VULCANICHE MESOZOICHE E TARDO-PALEOZOICHE DELLA SARDEGNA SETTENTRIONALE"}
+ {:id 55,
+  :cod_gerarchia "C101",
+  :sfalsa "C101",
+  :desc_gerarchia "SUCCESSIONE SEDIMENTARIA MESOZOICA"}
+ {:id 56,
+  :cod_gerarchia "C102",
+  :sfalsa "C102",
+  :desc_gerarchia "SUCCESSIONE PERMO-CARBONIFERA"}
+ {:id 57,
+  :cod_gerarchia "C110",
+  :sfalsa "C110",
+  :desc_gerarchia
+  "SUCCESSIONE SEDIMENTARIA MESOZOICA DELLA SARDEGNA SETTENTRIONALE"}
+ {:id 58,
+  :cod_gerarchia "C120",
+  :sfalsa "C120",
+  :desc_gerarchia
+  "SUCCESSIONE VULCANO-SEDIMENTARIA TARDO-PALEOZOICA DELLA SARDEGNA SETTENTRIONALE"}
+ {:id 59,
+  :cod_gerarchia "C200",
+  :sfalsa "C200",
+  :desc_gerarchia
+  "SUCCESSIONI SEDIMENTARIE E VULCANICHE MESOZOICHE E TARDO-PALEOZOICHE DELLA SARDEGNA CENTRO-ORIENTALE"}
+ {:id 60,
+  :cod_gerarchia "C210",
+  :sfalsa "C210",
+  :desc_gerarchia
+  "SUCCESSIONE SEDIMENTARIA MESOZOICA DELLA SARDEGNA CENTRO-ORIENTALE"}
+ {:id 61,
+  :cod_gerarchia "C220",
+  :sfalsa "C220",
+  :desc_gerarchia
+  "SUCCESSIONE VULCANO-SEDIMENTARIA TARDO-PALEOZOICA DELLA SARDEGNA CENTRO-ORIENTALE"}
+ {:id 62,
+  :cod_gerarchia "C221",
+  :sfalsa "C221",
+  :desc_gerarchia "COMPLESSO VULCANICO PERMIANO"}
+ {:id 63,
+  :cod_gerarchia "C222",
+  :sfalsa "C222",
+  :desc_gerarchia "SUCCESSIONE SEDIMENTARIA PERMO-CARBONIFERA"}
+ {:id 64,
+  :cod_gerarchia "C300",
+  :sfalsa "C300",
+  :desc_gerarchia
+  "SUCCESSIONE SEDIMENTARIE E VULCANICHE MESOZOICHE MESOZOICHE E TARDO-PALEOZOICHE DELLA SARDEGNA SUD-OCCIDENTALE"}
+ {:id 65,
+  :cod_gerarchia "C310",
+  :sfalsa "C310",
+  :desc_gerarchia
+  "SUCCESSIONE SEDIMENTARIA MESOZOICA DELLA SARDEGNA SUD-OCCIDENTALE"}
+ {:id 66,
+  :cod_gerarchia "C320",
+  :sfalsa "C320",
+  :desc_gerarchia
+  "SUCCESSIONE SEDIMENTARIA TARDO-PALEOZOICA DELLA SARDEGNA SUD-OCCIDENTALE"}
+ {:id 67,
+  :cod_gerarchia "D000",
+  :sfalsa "D000",
+  :desc_gerarchia "COMPLESSO INTRUSIVO E FILONIANO TARDO-PALEOZOICO"}
+ {:id 68,
+  :cod_gerarchia "D100",
+  :sfalsa "D100",
+  :desc_gerarchia "CORTEO FILONIANO"}
+ {:id 69,
+  :cod_gerarchia "D200",
+  :sfalsa "D200",
+  :desc_gerarchia "COMPLESSO INTRUSIVO PALEOZOICO"}
+ {:id 70,
+  :cod_gerarchia "D210",
+  :sfalsa "D210",
+  :desc_gerarchia "COMPLESSO GRANITOIDE DELLA SARDEGNA SETTENTRIONALE"}
+ {:id 71,
+  :cod_gerarchia "D211",
+  :sfalsa "D211",
+  :desc_gerarchia "COMPLESSO GRANITOIDE DELL'ISOLA ASINARA"}
+ {:id 72,
+  :cod_gerarchia "D212",
+  :sfalsa "D212",
+  :desc_gerarchia "COMPLESSO GRANITOIDE DELLA GALLURA"}
+ {:id 73,
+  :cod_gerarchia "D213",
+  :sfalsa "D213",
+  :desc_gerarchia "COMPLESSO GRANITOIDE DEL GOCEANO-BITTESE"}
+ {:id 74,
+  :cod_gerarchia "D220",
+  :sfalsa "D220",
+  :desc_gerarchia
+  "COMPLESSO GRANITOIDE DELLA SARDEGNA CENTRO-ORIENTALE"}
+ {:id 75,
+  :cod_gerarchia "D221",
+  :sfalsa "D221",
+  :desc_gerarchia "COMPLESSO GRANITOIDE DEL NUORESE"}
+ {:id 76,
+  :cod_gerarchia "D222",
+  :sfalsa "D222",
+  :desc_gerarchia "COMPLESSO GRANITOIDE DELL'ISOLA DI MAL DI VENTRE"}
+ {:id 77,
+  :cod_gerarchia "D223",
+  :sfalsa "D223",
+  :desc_gerarchia "COMPLESSO GRANITOIDE DEL MANDROLISAI-SARCIDANO"}
+ {:id 78,
+  :cod_gerarchia "D224",
+  :sfalsa "D224",
+  :desc_gerarchia "COMPLESSO GRANITOIDE DEL GENNARGENTU-OGLIASTRA"}
+ {:id 79,
+  :cod_gerarchia "D230",
+  :sfalsa "D230",
+  :desc_gerarchia "COMPLESSO GRANITOIDE DELLA SARDEGNA SUD-ORIENTALE"}
+ {:id 80,
+  :cod_gerarchia "D231",
+  :sfalsa "D231",
+  :desc_gerarchia "COMPLESSO GRANITOIDE DEL GERREI"}
+ {:id 81,
+  :cod_gerarchia "D232",
+  :sfalsa "D232",
+  :desc_gerarchia "COMPLESSO GRANITOIDE DEL SARRABUS"}
+ {:id 82,
+  :cod_gerarchia "D240",
+  :sfalsa "D240",
+  :desc_gerarchia
+  "COMPLESSO GRANITOIDE DELLA SARDEGNA SUD-OCCIDENTALE"}
+ {:id 83,
+  :cod_gerarchia "D241",
+  :sfalsa "D241",
+  :desc_gerarchia "COMPLESSO GRANITOIDE DEL SULCIS-ARBURESE"}
+ {:id 84,
+  :cod_gerarchia "E000",
+  :sfalsa "E000",
+  :desc_gerarchia "BASAMENTO METAMORFICO PALEOZOICO"}
+ {:id 85,
+  :cod_gerarchia "E100",
+  :sfalsa "E100",
+  :desc_gerarchia
+  "COMPLESSO METAMORFICO DELLA SARDEGNA CENTRO-SETTENTRIONALE"}
+ {:id 86,
+  :cod_gerarchia "E110",
+  :sfalsa "E110",
+  :desc_gerarchia "COMPLESSO MIGMATITICO"}
+ {:id 87,
+  :cod_gerarchia "E120",
+  :sfalsa "E120",
+  :desc_gerarchia "COMPLESSO METAMORFICO DI MEDIO GRADO"}
+ {:id 88,
+  :cod_gerarchia "E121",
+  :sfalsa "E121",
+  :desc_gerarchia "PARADERIVATI"}
+ {:id 89,
+  :cod_gerarchia "E122",
+  :sfalsa "E122",
+  :desc_gerarchia "ORTODERIVATI"}
+ {:id 90,
+  :cod_gerarchia "E129",
+  :sfalsa "E129",
+  :desc_gerarchia "COMPLESSO METAMORFICO DI BASSO GRADO"}
+ {:id 91,
+  :cod_gerarchia "E130",
+  :sfalsa "E130",
+  :desc_gerarchia "COMPLESSO METAMORFICO DI BASSO GRADO DELLA NURRA"}
+ {:id 92,
+  :cod_gerarchia "E131",
+  :sfalsa "E131",
+  :desc_gerarchia "UNITÀ TETTONICA DI CANAGLIA"}
+ {:id 93,
+  :cod_gerarchia "E132",
+  :sfalsa "E132",
+  :desc_gerarchia "UNITÀ TETTONICA DI LI TRUMBETTI"}
+ {:id 94,
+  :cod_gerarchia "E133",
+  :sfalsa "E133",
+  :desc_gerarchia "UNITÀ TETTONICA DI ARGENTIERA"}
+ {:id 95,
+  :cod_gerarchia "E140",
+  :sfalsa "E140",
+  :desc_gerarchia
+  "COMPLESSO METAMORFICO DI BASSO GRADO DEL GOCEANO-LOGUDORO-ORANI"}
+ {:id 96,
+  :cod_gerarchia "E141",
+  :sfalsa "E141",
+  :desc_gerarchia "UNITÀ TETTONICA DI FIORENTINI"}
+ {:id 97,
+  :cod_gerarchia "E142",
+  :sfalsa "E142",
+  :desc_gerarchia "UNITÀ TETTONICA DI OZIERI"}
+ {:id 98,
+  :cod_gerarchia "E200",
+  :sfalsa "E200",
+  :desc_gerarchia
+  "COMPLESSO METAMORFICO DELLA SARDEGNA CENTRO-MERIDIONALE"}
+ {:id 99,
+  :cod_gerarchia "E210",
+  :sfalsa "E210",
+  :desc_gerarchia "ZONA DELLE FALDE INTERNE"}
+ {:id 100,
+  :cod_gerarchia "E211",
+  :sfalsa "E211",
+  :desc_gerarchia "UNITÀ TETTONICA DELLA BARBAGIA"}
+ {:id 101,
+  :cod_gerarchia "E220",
+  :sfalsa "E220",
+  :desc_gerarchia "ZONA DELLE FALDE ESTERNE"}
+ {:id 102,
+  :cod_gerarchia "E221",
+  :sfalsa "E221",
+  :desc_gerarchia "UNITÀ TETTONICA DELL'ARBURESE"}
+ {:id 103,
+  :cod_gerarchia "E222",
+  :sfalsa "E222",
+  :desc_gerarchia "UNITÀ TETTONICA DEL SARRABUS"}
+ {:id 104,
+  :cod_gerarchia "E223",
+  :sfalsa "E223",
+  :desc_gerarchia "UNITÀ TETTONICA DI MEANA SARDO"}
+ {:id 105,
+  :cod_gerarchia "E224",
+  :sfalsa "E224",
+  :desc_gerarchia "UNITÀ TETTONICA DEL GERREI"}
+ {:id 106,
+  :cod_gerarchia "E225",
+  :sfalsa "E225",
+  :desc_gerarchia "UNITÀ TETTONICA DI RIU GRUPPA"}
+ {:id 107,
+  :cod_gerarchia "E226",
+  :sfalsa "E226",
+  :desc_gerarchia "UNITÀ TETTONICA DEL MONTE GRIGHINI"}
+ {:id 108,
+  :cod_gerarchia "E230",
+  :sfalsa "E230",
+  :desc_gerarchia "ZONA ESTERNA DELL'IGLESIENTE-SULCIS"}
+ {:id 109,
+  :cod_gerarchia "E231",
+  :sfalsa "E231",
+  :desc_gerarchia "DEPOSITI SINTETTONICI TIPO \"CULM\""}
+ {:id 110,
+  :cod_gerarchia "E232",
+  :sfalsa "E232",
+  :desc_gerarchia
+  "SUCCESSIONE SEDIMENTARIA POST \"DISCORDANZA SARDA\""}
+ {:id 111,
+  :cod_gerarchia "E233",
+  :sfalsa "E233",
+  :desc_gerarchia "SUCCESSIONE SEDIMENTARIA PRE \"DISCORDANZA SARDA\""}
+ {:id 112,
+  :cod_gerarchia "E234",
+  :sfalsa "E234",
+  :desc_gerarchia "UNITÀ TETTONICA DI CAPO SPARTIVENTO"}
+ {:id 113,
+  :cod_gerarchia "X000",
+  :sfalsa "X000",
+  :desc_gerarchia "NON COMPRESO IN GERARCHIA GEOLOGICA"}]
