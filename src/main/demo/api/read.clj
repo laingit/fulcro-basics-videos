@@ -30,10 +30,16 @@
                             result (get data [:lists 1])]
                         result)))
 
-(defquery-root :legenda-list
+(defquery-root :geoppr/test
                (value [env  parms]
                       (let [{:keys [query]} env]
                         (timbre/info :FullQuery query)
-                        {:leg/id 1 :leg/name "litologia" :leg/items leg/table})))
+                        "geoppr/test root")))
 
-(prim/tree->db [:x :id] leg/table)
+(defquery-entity :geoppr/test
+               (value [env id parms]
+                      (let [{:keys [query]} env]
+                        (timbre/info :FullQuery query)
+                        "geoppr/test entity")))
+
+

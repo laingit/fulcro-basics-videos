@@ -5,7 +5,7 @@
 
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/clojurescript "1.9.946"]
-                 [fulcrologic/fulcro "2.0.0-beta6"]
+                 [fulcrologic/fulcro "2.0.0"]
                  [fulcrologic/fulcro-spec "2.0.0-beta3" :scope "test" :exclusions [fulcrologic/fulcro]]
                  [org.clojure/java.jdbc "0.7.2"]
                  [java-jdbc/dsl "0.1.3"]

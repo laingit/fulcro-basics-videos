@@ -2,7 +2,7 @@
   (:require
     [fulcro.client :as fc]
     [demo.client :as core]
-    [demo.ui.root :as root]
+    [demo.ui.geoppr :as root]
     [cljs.pprint :refer [pprint]]
     [fulcro.client.logging :as log]))
 
