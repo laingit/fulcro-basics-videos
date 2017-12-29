@@ -1,11 +1,11 @@
 (ns demo.client
   (:require [fulcro.client :as fc]
-            [fulcro.client.data-fetch :as df]               ; (1)
+            [fulcro.client.data-fetch :as df]
             [demo.ui.geoppr :as root]))
 
 (defonce app (atom (fc/new-fulcro-client
                      :started-callback
-                     (fn [app]                              ; (2)
-                       (df/load app :geoppr/test root/Root))
-
-                     :initial-state {:geoppr/inizio 42})))
+                     (fn [app]
+                       (df/load app :geoppr/test root/Root)
+                       (df/load app :geoppr/gerarchia root/Root)
+                       ))))

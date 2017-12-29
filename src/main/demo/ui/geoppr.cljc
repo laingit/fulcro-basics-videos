@@ -6,11 +6,11 @@
     [demo.api.geoppr-mutations :as api]
     [fulcro.client.primitives :as prim :refer [defsc]]))
 
-(defsc Root [this {:keys [ui/react-key geoppr/test geoppr/inizio] :or {react-key "ROOT"}}]
+(defsc Root [this {:keys [ui/react-key geoppr/test geoppr/gerarchia] :or {react-key "ROOT"}}]
   {:initial-state (fn [p] {})
-   :query         [:ui/locale :ui/react-key :geoppr/test :geoppr/inizio]}
+   :query         [:ui/locale :ui/react-key :geoppr/test :geoppr/gerarchia]}
   (dom/div #js {:key react-key}
-           (dom/div nil (str "hi" test))
+           (dom/div nil (str "hi" (test :a)))
            (dom/button
              #js {:onClick #(prim/transact! this `[(api/test1 {:x 1})])} "uno")
-           inizio))
+           (gerarchia :nome)))

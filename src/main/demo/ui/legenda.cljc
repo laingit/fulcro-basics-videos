@@ -22,7 +22,7 @@
                 (dom/label nil (repeat lv " - "))
                 (dom/label nil "id:" id " sort: " sort" lv: " lv " n: " n)))
 
-(def ui-legenda-table-item (prim/factory Legenda-Table-Item {:keyfn :id}))
+(def ui-legenda-table-item (prim/factory LegendaItem {:keyfn :id}))
 
 (defsc LegendaTable [this {:keys [leg/id leg/name leg/items] :as props}]
   {:query [:leg/id :leg/name {:leg/items (prim/get-query LegendaItem)}]

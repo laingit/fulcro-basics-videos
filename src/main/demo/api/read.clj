@@ -3,7 +3,8 @@
     [fulcro.server :refer [defquery-entity defquery-root]]
     [taoensso.timbre :as timbre]
     [fulcro.client.primitives :as prim]
-    [demo.legenda.data :as leg]))
+    [demo.legenda.data :as leg]
+    [demo.legenda.utils :as utils]))
 
 (defquery-entity :meaning/by-id
                  "Returns the meaning of life."
@@ -40,12 +41,14 @@
                (value [env  parms]
                       (let [{:keys [query]} env]
                         (timbre/info :FullQuery query)
-                        "geoppr/test root")))
+                        {:a "Andrea"})))
 
-(defquery-entity :geoppr/test
-               (value [env id parms]
+(defquery-root :geoppr/gerarchia
+               (value [env  parms]
                       (let [{:keys [query]} env]
                         (timbre/info :FullQuery query)
-                        "geoppr/test entity")))
+                        {:nome "Gerarchia Geoppr" :geoppr/gerarchia-items (utils/get-gerarchia) })))
+
+
 
 
