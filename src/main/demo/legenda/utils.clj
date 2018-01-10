@@ -42,3 +42,12 @@
       (and check0 (not check00)) 3
       (not check0) 4
       :else 9999)))
+
+
+(defn to-hex-rgb
+  [{:keys [RED GREEN BLUE]}]
+  (let [r (if (string? RED) (Integer/parseInt RED) RED)
+        g (if (string? GREEN) (Integer/parseInt GREEN) GREEN)
+        b (if (string? BLUE) (Integer/parseInt BLUE) BLUE)]
+    (str "#" (apply str (format "%02x%02x%02x" r g b)))))
+

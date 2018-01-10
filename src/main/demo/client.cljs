@@ -6,6 +6,4 @@
 (defonce app (atom (fc/new-fulcro-client
                      :started-callback
                      (fn [app]
-                       (df/load app :geoppr/test root/Root)
-                       (df/load app :geoppr/gerarchia root/Root)
-                       ))))
+                       (df/load app :geoppr/gerarchia root/Root)))))

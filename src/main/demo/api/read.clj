@@ -37,11 +37,6 @@
                         (timbre/info :FullQuery query)
                         {:leg/id 1 :leg/name "litologia" :leg/items leg/table})))
 
-(defquery-root :geoppr/test
-               (value [env  parms]
-                      (let [{:keys [query]} env]
-                        (timbre/info :FullQuery query)
-                        {:a "Andrea"})))
 
 (defquery-root :geoppr/gerarchia
                (value [env  parms]
